@@ -8,8 +8,8 @@
 int main()
 {
 	char gender[16] = "";
-	char male[16] = "male";
-	char females[16] = "females";
+	const char male[16] = "male";
+	const char females[16] = "females";
 	
 	int height = 0;
 	int input_weight = 0;//ÊäÈëÌåÖØ
